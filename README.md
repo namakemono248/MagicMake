@@ -8,8 +8,14 @@
 ### EnemySO
 敵のステータス
 
+### EnemySpawner
+ステージのリストからランダムに敵を抽出
+
 ### MagicLibrary
 魔法文字から文法を作成
 
 ### MagicSO
 魔法のステータス
+
+### StageDataSO
+各ステージの敵をリスト化
