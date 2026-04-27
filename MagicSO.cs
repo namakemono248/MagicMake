@@ -1,10 +1,8 @@
 using UnityEngine;
 
-[CreateAssetMenu]
-public class MagicSO : ScriptableObject
+public abstract class MagicSO : ScriptableObject
 {
     public string wordName;
     public Sprite icon;
-    public int power;
-    public string attribute;
+    public abstract void Execuet(EnemyController target, int bassPowwer, ref float multiplier);
 }
