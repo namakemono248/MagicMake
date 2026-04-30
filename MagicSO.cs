@@ -4,5 +4,5 @@ public abstract class MagicSO : ScriptableObject
 {
     public string wordName;
     public Sprite icon;
-    public abstract void Execuet(EnemyController target, int bassPowwer, ref float multiplier);
+    public abstract void Execuet(EnemyManager target, int bassPowwer, ref float multiplier);
 }

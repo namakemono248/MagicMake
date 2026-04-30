@@ -5,8 +5,9 @@ public class Attack : MonoBehaviour
     public MagicLibrary library;
 
     // 敵ボタン(button)がクリックされたら呼び出す
-    public void OnEnemyClicked(EnemyController enemy)
+    public void OnEnemyClicked(EnemyManager enemy)
     {
+        Debug.Log($"{enemy.name}がクリックされました！");
         if (library == null || library.currentSpell.Count == 0) return;
 
         // 計算処理

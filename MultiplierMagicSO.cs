@@ -5,7 +5,7 @@ public class MultiplierMagicSO : MagicSO
 {
     public float multiplierValue = 2.0f; // 2倍
 
-    public override void Execuet(EnemyController target, int basePower, ref float currentMultiplier)
+    public override void Execuet(EnemyManager target, int basePower, ref float currentMultiplier)
     {
         // 倍率を掛け算する
         currentMultiplier *= multiplierValue;

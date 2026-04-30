@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class EnemySpawner : MonoBehaviour
 {
     public StageDataSO currentStge;
-    public List<EnemyController> enemyButtons;
+    public List<EnemyManager> enemyButtons;
 
     void Start()
     {
